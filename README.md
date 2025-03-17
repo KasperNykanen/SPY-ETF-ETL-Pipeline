@@ -1,7 +1,8 @@
+
 # ETL Pipeline Project
 27.1.2025
 
-This project implements an ETL (Extract, Transform, Load) pipeline. The pipeline is designed to extract SPY ETF pricing data from Yahoo Finance's API, transform it into a desired format, and load it into a SQLite database for further analysis or storage.
+This project implements an ETL (Extract, Transform, Load) pipeline. The pipeline is designed to extract SPY ETF pricing data from Yahoo Finance's API, transform it into a desired format, and load it into a SQLite database for further analysis or storage. This project demonstrates practical skills in data extraction, transformation, and loading processes using Python and SQLite.
 
 ## Project Structure
 
@@ -48,7 +49,7 @@ Make sure to configure the source and destination settings in the `etl_pipeline.
 ## Additional Features
 
 - **Worst Days Analysis**: A script to query the database and find the ETF's worst days from the 2000s.
-   - to run: python src/worst_days.py
-
-This project demonstrates practical skills in data extraction, transformation, and loading processes using Python and SQLite.
-
+   - to run: 
+   ```
+   python src/worst_days.py
+   ```
